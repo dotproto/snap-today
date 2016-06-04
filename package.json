@@ -10,7 +10,7 @@
     "deploy": "firebase deploy",
     "preversion": "npm test",
     "version": "npm run build",
-    "postversion": "git push && git push --tags"
+    "push": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
