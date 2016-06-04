@@ -1,0 +1,35 @@
+{
+  "name": "snap-today",
+  "version": "0.0.1",
+  "description": "Take a selfie every day and create a gif of how you've changed over time",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./dist && mkdir dist",
+    "build": "echo \"Placeholder: Build the static assets for deployment\"",
+    "test": "echo \"Warning: no test specified\"",
+    "deploy": "",
+    "preversion": "npm test",
+    "version": "npm run build && git add -A dist",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svincent/snap-today.git"
+  },
+  "keywords": [
+    "photo",
+    "pwa",
+    "app",
+    "responsive",
+    "getUserMedia"
+  ],
+  "author": "Simeon Vincent (@dotproto)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svincent/snap-today/issues"
+  },
+  "homepage": "https://snap.today/",
+  "devDependencies": {
+    "rimraf": "^2.5.2"
+  }
+}
