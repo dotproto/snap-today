@@ -7,9 +7,9 @@
     "clean": "rimraf ./dist && mkdir dist",
     "build": "echo \"Placeholder: Build the static assets for deployment\"",
     "test": "echo \"Warning: no test specified\"",
-    "deploy": "",
+    "deploy": "firebase deploy",
     "preversion": "npm test",
-    "version": "npm run build && git add -A dist",
+    "version": "npm run build",
     "postversion": "git push && git push --tags"
   },
   "repository": {
