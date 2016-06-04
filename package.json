@@ -25,11 +25,13 @@
   ],
   "author": "Simeon Vincent (@dotproto)",
   "license": "MIT",
+  "private": true,
   "bugs": {
     "url": "https://github.com/svincent/snap-today/issues"
   },
   "homepage": "https://snap.today/",
   "devDependencies": {
+    "firebase-tools": "^3.0.2",
     "rimraf": "^2.5.2"
   }
 }
