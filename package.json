@@ -1,6 +1,6 @@
 {
   "name": "snap-today",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Take a selfie every day and create a gif of how you've changed over time",
   "main": "index.js",
   "scripts": {
